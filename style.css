@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf3;
+    color: #333;
+    line-height: 1.7;
+}
+
+header {
+    background-color: #7b3f35;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+nav {
+    background-color: #f0d9c5;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #66352e;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: #b45b45;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.hero img {
+    width: 220px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 5px solid #e8c9ae;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    color: #7b3f35;
+    margin-bottom: 10px;
+}
+
+.section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.section h2,
+.message h2 {
+    color: #7b3f35;
+    margin-bottom: 12px;
+}
+
+.section ul {
+    padding-left: 25px;
+}
+
+.message {
+    text-align: center;
+    background-color: #f0d9c5;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #7b3f35;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    .hero img {
+        width: 180px;
+        height: 220px;
+    }
+}
